@@ -17,12 +17,12 @@ todoList = [];
  * the "// YOUR CODE HERE" comments.
  */
 
-function __todo(todoString) {
-    // YOUR CODE HERE
+function addtodo(todoString) {
+    todoList.push(todoString);
 }
 
-function __todo() {
-    // YOUR CODE HERE
+function printtodo() {
+    todoList.forEach(todo => console.log(todo));
 }
 
 /**
@@ -31,7 +31,9 @@ function __todo() {
  * we do it here
  */
 function mainTask1b() {
-    // YOUR CODE HERE (simply call the functions you implemented above)
+    addtodo('Go to the Bodega');
+    addtodo('Walk the pet fish');
+    printtodo();
 }
 
 // This bit of code ensures that a main method exists! If it doesn't, then it throws an error
@@ -39,4 +41,5 @@ if (require.main === module) {
     // unlike other languages like Java, there is no built in main method. We use a funciton called
     // main by convention.
     mainTask1b();
+
 }

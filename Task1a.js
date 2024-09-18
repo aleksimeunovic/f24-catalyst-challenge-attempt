@@ -17,12 +17,18 @@ const todoList = [];
  * 
  * TODOS:
  * 1. Apply to y/cs!
- * 2. Pick out my classes
- * 3. Have dinner with my suite
+ * 2. Pick out my classes!
+ * 3. Have dinner with my suite!
  * 
  */
 function addAndPrintTodos() {
-    // YOUR CODE HERE
+    let todoList = ["1. Apply to y/cs!", "2. Pick out my classes!", "3. Have dinner with my suite!"];
+
+    console.log("TODOS:")
+    console.log(todoList[0]);
+    console.log(todoList[1]);
+    console.log(todoList[2]);
+
 }
 
 /**
